@@ -12,3 +12,19 @@ composer install --prefer-dist
 
 php fast.php start
 ```
+
+## Directory structure
+
+```markdown
+data
+entities
+events
+jobs
+listeners
+methods
+providers
+repositories
+services
+types
+validators
+```
