@@ -1,0 +1,22 @@
+{
+    "name": "storinka/fast",
+    "description": "Fast and modern web framework.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Storinka\\Fast\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davyd Kohut",
+            "email": "davyd.kohut@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "workerman/workerman": "dev-master",
+        "storinka/invoke": "^v2"
+    }
+}
