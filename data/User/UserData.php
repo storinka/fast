@@ -2,7 +2,9 @@
 
 namespace App\Data\User;
 
-class UserData
+use Invoke\Data;
+
+class UserData extends Data
 {
     public string $name;
 }

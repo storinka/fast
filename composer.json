@@ -8,7 +8,8 @@
       "App\\Data\\": "data/",
       "App\\Entities\\": "entities/",
       "App\\Events\\": "events/",
-      "App\\Jobs\\": "jobs/",
+      "App\\Tasks\\": "tasks/",
+      "App\\Meta\\": "meta/",
       "App\\Listeners\\": "listeners/",
       "App\\Methods\\": "methods/",
       "App\\Repositories\\": "repositories/",
@@ -27,6 +28,8 @@
   "minimum-stability": "dev",
   "require": {
     "workerman/workerman": "dev-master",
-    "storinka/invoke": "^v2"
+    "storinka/invoke": "^v2",
+    "cycle/orm": "2.x-dev",
+    "cycle/annotated": "3.x-dev"
   }
 }
